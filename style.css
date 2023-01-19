@@ -360,17 +360,17 @@ ul.skills {
 }
 
 .see-project-1 {
-  width: 24vw;
+  width: 92px;
   background: #ff6b00;
   color: #fff;
-  padding: 3vw;
+  padding: 10px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
-  margin-top: 2vh;
+  margin-top: 18px;
   margin-bottom: 5vh;
 }
 
@@ -516,17 +516,19 @@ ul.skils :first-child :hover {
 
 .get-myresume {
   display: flex;
-  align-items: center;
   padding: 12px;
   background: #ff6b00;
   text-decoration: none;
-  margin: 25px 58vw 0 18px;
+  margin-top: 25px;
+  margin-left: 18px;
+  width: 143px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+  letter-spacing: 0.03em;
 }
 
 .abt-me-image {
