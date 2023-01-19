@@ -541,7 +541,7 @@ ul.lists {
   font-size: 32px;
   line-height: 44px;
   align-items: center;
-  color: rgb(247, 240, 240);
+  color: rgb(247, 247, 247);
 }
 
 .Lan::before {
@@ -572,7 +572,7 @@ ul.lists {
   font-size: 32px;
   line-height: 44px;
   align-items: center;
-  color: rgb(247, 240, 240);
+  color: rgb(247, 247, 247);
 }
 
 .Frame::before {
@@ -605,7 +605,7 @@ ul.lists {
   font-size: 32px;
   line-height: 44px;
   align-items: center;
-  color: rgb(247, 240, 240);
+  color: rgb(247, 247, 247);
 }
 
 .Sk::before {
