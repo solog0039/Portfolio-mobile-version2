@@ -18,7 +18,6 @@
   src: url(./assets/fonts/Inter-VariableFont_slnt,wght.ttf);
 }
 
-/* Please check to be sure that you have this or that the template has this */
 @font-face {
   font-family: 'InaiMathi';
   src: url(./assets/fonts/Murasuit.ttf);
@@ -306,7 +305,7 @@ hr.line {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #091e42;
+  color: #14284b;
 }
 
 ul.skills {
@@ -338,6 +337,7 @@ ul.skills {
 .see-project-1 {
   width: 24vw;
   background: #ff6b00;
+  color: #fff;
   padding: 3vw;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -366,7 +366,7 @@ ul.skills {
 }
 
 .prof-art {
-  margin-top: 13vh;
+  margin-top: 17vh;
   margin-left: 6px;
   color: #fff;
   font-family: 'Crete Round', sans-serif;
@@ -403,6 +403,9 @@ ul.skils {
 }
 
 ul.skils :first-child {
+  display: flex;
+  align-self: center;
+  padding: 2vw;
   border: 2px solid #8993a4;
   background: rgba(255, 255, 255, 0.24);
   font-family: 'Inter', sans-serif;
@@ -462,7 +465,6 @@ ul.skils :first-child :hover {
 }
 
 .h31 {
-  border: 1px solid white;
   margin-top: 10vh;
   margin-left: 18px;
   margin-right: 18px;
@@ -501,8 +503,8 @@ ul.skils :first-child :hover {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
-  align-self: flex-start;
-  border: 1px solid red;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .abt-me-image {
@@ -539,7 +541,7 @@ ul.lists {
   font-size: 32px;
   line-height: 44px;
   align-items: center;
-  color: #fff;
+  color: rgb(247, 240, 240);
 }
 
 .Lan::before {
@@ -560,7 +562,7 @@ ul.lists {
   line-height: 43px;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: rgb(247, 240, 240);
 }
 
 .Frame {
@@ -570,7 +572,7 @@ ul.lists {
   font-size: 32px;
   line-height: 44px;
   align-items: center;
-  color: #fff;
+  color: rgb(247, 240, 240);
 }
 
 .Frame::before {
@@ -593,7 +595,7 @@ ul.lists {
   line-height: 43px;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: rgb(247, 240, 240);
 }
 
 .Sk {
@@ -603,7 +605,7 @@ ul.lists {
   font-size: 32px;
   line-height: 44px;
   align-items: center;
-  color: #fff;
+  color: rgb(247, 240, 240);
 }
 
 .Sk::before {
@@ -626,7 +628,7 @@ ul.lists {
   line-height: 43px;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: rgb(247, 240, 240);
 }
 
 ul.lists,
