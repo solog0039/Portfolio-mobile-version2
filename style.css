@@ -152,7 +152,23 @@ table {
   border-spacing: 0;
 }
 
+/* button interaction */
+
+.button:visited {
+  color: white;
+}
+
+.button:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.button:active {
+  color: yellow;
+}
+
 /* main code */
+
 .toolbar {
   display: flex;
   flex: 1;
@@ -306,6 +322,15 @@ hr.line {
   display: flex;
   align-items: center;
   color: #14284b;
+}
+
+.p21 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
 }
 
 ul.skills {
@@ -490,21 +515,18 @@ ul.skils :first-child :hover {
 }
 
 .get-myresume {
+  display: flex;
+  align-items: center;
+  padding: 12px;
   background: #ff6b00;
   text-decoration: none;
-  margin-top: 25px;
-  margin-left: 18px;
-  width: 35vw;
-  height: 6vh;
+  margin: 25px 58vw 0 18px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
-  letter-spacing: 0.03em;
   color: #fff;
-  text-align: center;
-  padding-top: 10px;
 }
 
 .abt-me-image {
